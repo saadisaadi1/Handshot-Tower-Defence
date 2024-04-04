@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2066335949716301607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1077979058787865075}
+  - component: {fileID: 8036783999782067973}
+  m_Layer: 0
+  m_Name: audio manager
+  m_TagString: audio manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1077979058787865075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066335949716301607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07, y: -0.01, z: 0.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8036783999782067973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066335949716301607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a938267f2fa98d1409292462dcab8703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pool:
+  - name: shoot
+    prefab: {fileID: 7345890299773685123, guid: 955d9677c52eafb44b22535d94b4650d, type: 3}
+    duration: 2
+    remain: 0
+  - name: explosion
+    prefab: {fileID: 4211270166994294142, guid: 114e8e2a380b0ec4f91165394fb87a54, type: 3}
+    duration: 3
+    remain: 0
+  - name: arrow hit
+    prefab: {fileID: 5055761237093003579, guid: 590950af22cc7954692a2779caae42d3, type: 3}
+    duration: 2
+    remain: 0
+  - name: get hit
+    prefab: {fileID: 837343337207980804, guid: d9cf88233777b1e419fbe6520f71735e, type: 3}
+    duration: 2
+    remain: 0
+  - name: hurt1
+    prefab: {fileID: 1380234841250327422, guid: f575cad13b94d4346855623b5fe8caf1, type: 3}
+    duration: 3
+    remain: 0
+  - name: hurt2
+    prefab: {fileID: 8559504382792932511, guid: 44c0dffbe65fa4a44a62b4e714a2c84d, type: 3}
+    duration: 3
+    remain: 0
+  - name: hurt3
+    prefab: {fileID: 6011157994887979688, guid: 0526a9ffd3c36ef4c9665a3177e05f61, type: 3}
+    duration: 3
+    remain: 0
+  - name: lose
+    prefab: {fileID: 5684169288137854488, guid: cec02ac7a2d2736489fc260314698112, type: 3}
+    duration: 5
+    remain: 0
+  - name: won wave
+    prefab: {fileID: 924644433447855218, guid: 984275b3b259eed41be7183e8ed13b19, type: 3}
+    duration: 4
+    remain: 0
+  - name: won wave
+    prefab: {fileID: 0}
+    duration: 0
+    remain: 0
+  - name: arrow pass
+    prefab: {fileID: 8035892909756652120, guid: 913c9a40859680649957d0aa60d80b61, type: 3}
+    duration: 2
+    remain: 0
+  - name: arrow pass
+    prefab: {fileID: 8035892909756652120, guid: 913c9a40859680649957d0aa60d80b61, type: 3}
+    duration: 2
+    remain: 0
+  - name: sword
+    prefab: {fileID: 91886034296238752, guid: f9b237861eb9a9b47887ac2a9cf7dc94, type: 3}
+    duration: 2
+    remain: 0
+  - name: heavy sword
+    prefab: {fileID: 5157084720082352081, guid: ccb659f2211392d408110906cbf12cbc, type: 3}
+    duration: 3
+    remain: 0
+  - name: orc start
+    prefab: {fileID: 2472348739241303271, guid: 0cdb6fa100344df409ba7112da76b34b, type: 3}
+    duration: 3
+    remain: 0
+  - name: eye hurt
+    prefab: {fileID: 7653575133350592802, guid: 5defbd76f1ba80b4b80d432aaaca0661, type: 3}
+    duration: 2
+    remain: 0
+  - name: skeleton hurt
+    prefab: {fileID: 1838843836373770272, guid: 15d26552ee2e02e4d9d662b577c0e00e, type: 3}
+    duration: 2
+    remain: 0
+  - name: eye hit
+    prefab: {fileID: 1229185031168793116, guid: 5b33140ea6548c24cb6d24f9d5429167, type: 3}
+    duration: 2
+    remain: 0
+  - name: bounce
+    prefab: {fileID: 820581452288417575, guid: 502038aa1dbe1914d9f068395b131f69, type: 3}
+    duration: 2
+    remain: 0
