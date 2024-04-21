@@ -1,11 +1,11 @@
 ![image](https://github.com/saadisaadi1/Handshot-Tower-Defence/assets/50622237/48de47e6-1e2d-4d99-a8f2-e748f087275e)
 
 ### **Introduction**
-This project is about making a game that works using intel realsense depth camera , made by me Saadi Saadi and my partner Ali Haj under the supervision of Ohad Meir one of the heads of Intel Realsense team
+This project is about making a game that can be palyed with intel realsense depth camera , made by me Saadi Saadi and my partner Ali Haj under the supervision of Ohad Meir one of the heads of Intel Realsense team
 the game is a tower defence archery game shooting targets and enemies , you can use either keyboard or just your hands using intel realsense depth camera to track them
 the game is made with unity and c# , and hand detection and tracking is made in python - using libraris such as pyrealsense2 , mediapipe , cv2 ... , and there is a connection between the unity application and the python application using sockets
 
-### **modefying The Project** 
+### **Modefying The Project** 
 If you want to change/modefy the project you can download Unity from https://unity.com/download, and download "Unity Project" folder from here and extract it , and open it using "Unity Hub" (this would be downloaded when downloading Unity) by clicking the open button and choosing the directory
 
 ![image](https://github.com/saadisaadi1/Handshot-Tower-Defence/assets/50622237/fc688c29-69e3-4e5c-9398-76eb923d7bb1)
@@ -66,7 +66,7 @@ here are some good and bad examples
 
 to change bow's angle use the left hand by moving it up and down
 
-to move left and right move both left and right hands, the middle point between them is that specify where you are in the game, keep your hands close to each other
+to move left and right move both hands to the left and to the right, the middle point between them is that specify where you are in the game, keep your hands close to each other
 
 to fire an arrow: 
 1) keep your left hand closed all the time
