@@ -57,9 +57,11 @@ as said before when playing with keyboard it's recommended to disable the image 
 ### **Playing With Intel Realsense Camera**
 
 first of all , you need to know that when using the camera to play you need to know that all actions are done using the positions of the hands and fingers so the depth and open fingers count is depending on that , so you need to keep your hands in a certain way that the palm of the hands is facing the camera and fingers are above like in this picture
+
 ![image](https://github.com/saadisaadi1/Handshot-Tower-Defence/assets/50622237/21e0ace8-71a9-42c1-bc62-3cb2dfcf3b47)
 
 here are some good and bad examples 
+
 ![image](https://github.com/saadisaadi1/Handshot-Tower-Defence/assets/50622237/c3afb857-a599-4927-94f2-1818c14a03b5)
 
 to change bow's angle use the left hand by moving it up and down
