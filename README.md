@@ -89,3 +89,5 @@ if you chose special abilty and want to trigger it:
 
 as said before it's recommended to keep RGB mode in the image window 
 and if your hand is stronger than right hand , you can click the button that changes the stronger hand , and then in all the instructions that we talked about in this section , flip right hand and left hand (for example right hand changes the bow's angle...)
+### **Gameplay Video**
+https://drive.google.com/file/d/1ZdyQh6gC1k_02LOzpg1VJQxVGKxIiWim/view?usp=sharing
