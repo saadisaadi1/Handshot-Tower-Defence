@@ -65,7 +65,9 @@ here are some good and bad examples
 ![image](https://github.com/saadisaadi1/Handshot-Tower-Defence/assets/50622237/c3afb857-a599-4927-94f2-1818c14a03b5)
 
 to change bow's angle use the left hand by moving it up and down
+
 to move left and right move both left and right hands, the middle point between them is that specify where you are in the game, keep your hands close to each other
+
 to fire an arrow: 
 1) keep your left hand closed all the time
 2) close your right hand to catch an arrow
