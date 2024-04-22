@@ -1,9 +1,11 @@
 ![image](https://github.com/saadisaadi1/Handshot-Tower-Defence/assets/50622237/48de47e6-1e2d-4d99-a8f2-e748f087275e)
 
+
 ### **Introduction**
 This project is about creating a game that can be palyed with intel realsense depth camera , made by me Saadi Saadi and my partner Ali Haj under the supervision of Ohad Meir one of the heads of Intel Realsense team
 the game is a tower defence archery game shooting targets and enemies , you can use either keyboard or just your hands using intel realsense depth camera to track them
 the game is made with unity and c# , and hand detection and tracking is made in python - using libraris such as pyrealsense2 , mediapipe , cv2 ... , and there is a connection between the unity application and the python application using sockets
+
 
 ### **Modefying The Project** 
 If you want to change/modefy the project you can download Unity from https://unity.com/download, and download "Unity Project" folder from here and extract it , and open it using "Unity Hub" (this would be downloaded when downloading Unity) by clicking the open button and choosing the directory
@@ -18,14 +20,17 @@ Unity Hub may ask you to download a specific Unity version that the project can 
 
 that way you can change in the project and play the game using keyboard , but if you have a realsense camera you can run unity (that way c# server would start lestining for connection) after that connect the camera and run one of the python files that you can take from "Python Files" directory (that way python client would connect to the server and start sending data that would control the game)
 
+
 ### **Just Playing** 
 If you want just to play the game download "Game Build" folder from here , extract it and run one of this 2 run files
 ![image](https://github.com/saadisaadi1/Handshot-Tower-Defence/assets/50622237/4c803abb-cbcc-48e9-b59d-8836fb2366e9)
+
 
 ### **About The Game**
 this game is an archery tower defence game , you are an archer on top of a castle your job is to defend the castle , and finesh the 9 waves before dying , after each wave the game gives you 3 abilities to choose one of them , most of the abilities are perminant that update the arrows for example the bouncing ability make your arrow jump , there are two abilities that you need to do specific actions to apply them : when choosing spikes ability , you need to put the spikes on the groud , and if you choose the special attack ability , you can use it once in each wave and make alot of arrows fall from the sky, you can control the game either with the keyboard or with intel realsense depth camera 
 
 by default you are set to control  the game with the camera , but you can switch between camera and keyboard by pressing the control button
+
 
 ### **Game Buttons**
 ![image](https://github.com/saadisaadi1/Handshot-Tower-Defence/assets/50622237/380b1fdf-2897-47bb-a5eb-05ed4948c55c)
@@ -38,25 +43,31 @@ the third button is for enabling and disabling sound effects
 
 the fourth button is for switching between keyboard and Intel Realsense camera
 
-the fifth button is only relevant if you are using the camera, "R" means your right hand is the stronger hand , "L" means that your left hand is the stronger hand
-in this game the strong hand is the one that shoots the arrows and the weak hand holds the bow
+the fifth button is only relevant if you are using the camera, "R" means your right hand is the stronger hand , "L" means that your left hand is the stronger hand, in this game the strong hand is the one that shoots the arrows and the weak hand holds the bow
 
 ![image](https://github.com/saadisaadi1/Handshot-Tower-Defence/assets/50622237/9e14faca-d74d-41b8-8011-bd27b38a6140)
 
 this button is only relevant if you are using the camera , it switches between 3 modes:
-1) RGB mode , this mode is the default mode and it's the best when you are playing with the camera , because it also shows the landmarks of the hands and fingers
-2) Depth ColorMap mode , this mode shows the dipth of every thing in the image , things are more blue when they are too close to the camera , and more red the more they are far
-3) No image Mode , disables the image window this is useful when playing with keyboard because then it's irrelevant
+1) RGB mode: this mode is the default mode and it's the best when you are playing with the camera , because it also shows the landmarks of the hands and fingers
+2) Depth ColorMap mode: this mode shows the dipth of every thing in the image , things are more blue when they are too close to the camera , and more red the more they are far
+3) No Image mode: disables the image window this is useful when playing with keyboard because then it's irrelevant
+
    
 ### **Playing With KeyBoard**
 to control with keyboard use down and up arrows for changing bow’s angle
+
 left and right arrows for moving left and right
+
 "Space" or "Z" for firing an arrow , hold "Space" or "Z" to control arrows power.
+
 use moust to choose abiltiy at the end of each wave
+
 when choosing the spikes ability use the four arrows to place the spikes and press space after that , to put it down
+
 if you have chosen special ability , you can press Z to trigger it
 
 as said before when playing with keyboard it's recommended to disable the image window
+
 
 ### **Playing With Intel Realsense Camera**
 
@@ -95,5 +106,7 @@ if you chose special abilty and want to trigger it:
 
 as said before it's recommended to keep RGB mode in the image window 
 and if your hand is stronger than right hand , you can click the button that changes the stronger hand , and then in all the instructions that we talked about in this section , flip right hand and left hand (for example right hand changes the bow's angle...)
+
+
 ### **Gameplay Video**
 https://drive.google.com/file/d/1ZdyQh6gC1k_02LOzpg1VJQxVGKxIiWim/view?usp=sharing
