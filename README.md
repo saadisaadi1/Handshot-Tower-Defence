@@ -52,7 +52,7 @@ the fifth button is only relevant if you are using the camera, "R" means your ri
 this button is only relevant if you are using the camera , it switches between 3 modes:
 1) RGB mode: this mode is the default mode and it's the best when you are playing with the camera , because it also shows the landmarks of the hands and fingers
 2) Depth ColorMap mode: this mode shows the dipth of every thing in the image , things are more blue when they are too close to the camera , and more red the more they are far
-3) No Image mode: disables the image window this is useful when playing with keyboard because then it's irrelevant
+3) No Image mode: disables the image window, this is useful when playing with keyboard because then it's irrelevant
 
    
 ### **Playing With KeyBoard**
@@ -66,7 +66,7 @@ use moust to choose abiltiy at the end of each wave
 
 when choosing the spikes ability use the four arrows to place the spikes and press space after that , to put it down
 
-if you have chosen special ability , you can press Z to trigger it
+if you have chosen special ability , you can press "X" to trigger it
 
 as said before when playing with keyboard it's recommended to disable the image window
 
