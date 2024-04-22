@@ -1,7 +1,7 @@
 ![image](https://github.com/saadisaadi1/Handshot-Tower-Defence/assets/50622237/48de47e6-1e2d-4d99-a8f2-e748f087275e)
 
 ### **Introduction**
-This project is about making a game that can be palyed with intel realsense depth camera , made by me Saadi Saadi and my partner Ali Haj under the supervision of Ohad Meir one of the heads of Intel Realsense team
+This project is about creating a game that can be palyed with intel realsense depth camera , made by me Saadi Saadi and my partner Ali Haj under the supervision of Ohad Meir one of the heads of Intel Realsense team
 the game is a tower defence archery game shooting targets and enemies , you can use either keyboard or just your hands using intel realsense depth camera to track them
 the game is made with unity and c# , and hand detection and tracking is made in python - using libraris such as pyrealsense2 , mediapipe , cv2 ... , and there is a connection between the unity application and the python application using sockets
 
@@ -31,9 +31,13 @@ by default you are set to control  the game with the camera , but you can switch
 ![image](https://github.com/saadisaadi1/Handshot-Tower-Defence/assets/50622237/380b1fdf-2897-47bb-a5eb-05ed4948c55c)
 
 the first button is for exiting the game
+
 the second button is for enabling and disabling music
+
 the third button is for enabling and disabling sound effects
+
 the fourth button is for switching between keyboard and Intel Realsense camera
+
 the fifth button is only relevant if you are using the camera, "R" means your right hand is the stronger hand , "L" means that your left hand is the stronger hand
 in this game the strong hand is the one that shoots the arrows and the weak hand holds the bow
 
