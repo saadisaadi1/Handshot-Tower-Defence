@@ -3,7 +3,9 @@
 
 ### **Introduction**
 This project is about creating a game that can be palyed with intel realsense depth camera , made by me Saadi Saadi and my partner Ali Haj under the supervision of Ohad Meir one of the heads of Intel Realsense team
-the game is a tower defence archery game shooting targets and enemies , you can use either keyboard or just your hands using intel realsense depth camera to track them
+
+the game is a tower defence archery game, firing arrows on targets and enemies , you can use either keyboard or just your hands using intel realsense depth camera to track them
+
 the game is made with unity and c# , and hand detection and tracking is made in python - using libraris such as pyrealsense2 , mediapipe , cv2 ... , and there is a connection between the unity application and the python application using sockets
 
 
