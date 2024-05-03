@@ -14,7 +14,7 @@ REM Run the game executable
 start "" "handshot tower defence.exe"
 
 REM Pause for 11 seconds
-timeout /t 10
+timeout /t 10 /nobreak >nul
 
 REM Run your Python script
 python "2 hands.py"
