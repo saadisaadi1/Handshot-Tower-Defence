@@ -45,7 +45,7 @@ exit /b
 REM Function to check and update pip
 :check_and_update_pip
 echo Checking if pip is installed
-pip --version > nul 2>&1
+python -m pip --version > nul 2>&1
 if %errorlevel% neq 0 (
     echo pip is not installed. Installing pip...
     REM Download get-pip.py
@@ -60,7 +60,7 @@ exit /b
 REM Function to check and install a Python package
 :check_and_install_package
 echo Checking if %~1 is installed...
-pip show %1 > nul 2>&1
+python -m pip show %1 > nul 2>&1
 if %errorlevel% neq 0 (
     echo Installing %~1...
     pip install %~1
